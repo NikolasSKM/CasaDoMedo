@@ -85,7 +85,7 @@ namespace CasaDoMedo
             Console.WriteLine();
             Console.WriteLine("     " + nome + " é um jovem tranquilo, introvertido mas de bom humor, prefere mesmo é estar no aconchego da sua casa e na companhia de seus jogos maravilhosos do que estar na rua, mas se precisar sair, prefere" +
                 " um bom pub ou um encontrão na casa de seus amigos... com churrasco e muita cerveja, é claro! -Qual a surpresa, ele sabe se divertir, ele é gamer e não bicho do mato!!-");
-            Console.WriteLine("Vive numa cidade chamada Extranhoville, que não possui muitos abitantes, fica no interior do estado de Sacana Catarrenta. Algo tem ocorrido na cidade e tem deixado todos muito preocupados, está havendo muitos sumissos de moradores," +
+            Console.WriteLine("Vive numa cidade chamada Extranhoville, que não possui muitos habitantes, fica no interior do estado de Sacana Catarrenta. Algo tem ocorrido na cidade e tem deixado todos muito preocupados, está havendo muitos sumicos de moradores," +
                 " então qualquer demora de resposta no Whatsapp passa de um mero vácuo para um possível sequestro. Numa linda tarde seu amigo " + nomeAmigo + " manda um whats pedindo que " + nome + " vá até sua casa porque quer conversar sobre" +
                 " esses sequestros pois acha que sabe quem pode estar por trás disso.");
             Console.WriteLine();
