@@ -8,8 +8,8 @@ namespace CasaDoMedo
 {
     class Program
     {
-        string nome;
-        string nomeAmigo;
+        public static string nome;
+        public static string nomeAmigo;
 
         public static void Main()
         {
@@ -71,6 +71,10 @@ namespace CasaDoMedo
             Console.WriteLine("             +===============================================+");
             Console.WriteLine("             |Beleza... Agora vamos começar o joguinho...    |");
             Console.WriteLine("             +===============================================+");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                     Pressione ENTER para continuar!");
+            Console.ReadKey();
             Console.Clear();
 
             Cena1();
@@ -79,7 +83,7 @@ namespace CasaDoMedo
         public static void Cena1()
         {
             Console.WriteLine("             +===============================================+");
-            Console.WriteLine("             |" + Program.Nomes.nome + " é um jovem tranquilo, alto astral" );
+            Console.WriteLine("             |" + nome + " é um jovem tranquilo, alto astral" );
             Console.WriteLine("             +===============================================+");
         }
     }//end of class

@@ -12,3 +12,10 @@ C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\obj\Debug\Cas
 C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe.config
 C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe
 C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.pdb
+C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csprojAssemblyReference.cache
+C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csproj.CoreCompileInputs.cache
+C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.exe
+C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.pdb
+C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe.config
+C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe
+C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.pdb
