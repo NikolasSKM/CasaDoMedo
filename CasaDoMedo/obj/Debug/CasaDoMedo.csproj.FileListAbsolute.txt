@@ -19,3 +19,10 @@ C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.pdb
 C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe.config
 C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe
 C:\Users\nikolas\Documents\GitHub\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.pdb
+D:\Google Drive\Estudos\Unisociesc\Programação para jogos\Projetos\Github\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe.config
+D:\Google Drive\Estudos\Unisociesc\Programação para jogos\Projetos\Github\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe
+D:\Google Drive\Estudos\Unisociesc\Programação para jogos\Projetos\Github\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.pdb
+D:\Google Drive\Estudos\Unisociesc\Programação para jogos\Projetos\Github\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csprojAssemblyReference.cache
+D:\Google Drive\Estudos\Unisociesc\Programação para jogos\Projetos\Github\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csproj.CoreCompileInputs.cache
+D:\Google Drive\Estudos\Unisociesc\Programação para jogos\Projetos\Github\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.exe
+D:\Google Drive\Estudos\Unisociesc\Programação para jogos\Projetos\Github\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.pdb

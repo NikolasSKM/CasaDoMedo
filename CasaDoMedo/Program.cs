@@ -128,59 +128,208 @@ namespace CasaDoMedo
         }//end of Cena1
 
         public static void Cena1_1()
-            {
-                Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                Console.WriteLine();
-                Console.WriteLine("     " + nomeAmigo + " não atende o smartphone apesar das inúmeras tentativas de ligação de " + nome + ". Mesmo achando muito estranho não ser atendido, acaba indo dormir pois está tarde e tem de trabalhar bem" +
-                    " cedo na manhã seguinte.");
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine("                          Pressione ENTER para continuar a história!");
-                Console.ReadKey();
-                Console.Clear();
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine();
+            Console.WriteLine("     " + nomeAmigo + " não atende o smartphone apesar das inúmeras tentativas de ligação de " + nome + ". Mesmo achando muito estranho não ser atendido, acaba indo dormir pois está tarde e tem de trabalhar bem" +
+                " cedo na manhã seguinte.");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para continuar a história!");
+            Console.ReadKey();
+            Console.Clear();
 
-                Cena2();
-            }//end of Cena1_1
+            Cena2();
+        }//end of Cena1_1
 
         public static void Cena1_2()
-            {
-                Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                Console.WriteLine();
-                Console.WriteLine("     Antes de sair, olhou a hora e viu que já era muito tarde e na manhã seguinte inicia seu trabalho bem cedo, então decide deixar para ligar no dia seguinte após seu expediente de trabalho.");
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine("                          Pressione ENTER para continuar a história!");
-                Console.ReadKey();
-                Console.Clear();
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine();
+            Console.WriteLine("     Antes de sair, olhou a hora e viu que já era muito tarde e na manhã seguinte inicia seu trabalho bem cedo, então decide deixar para ligar no dia seguinte após seu expediente de trabalho.");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para continuar a história!");
+            Console.ReadKey();
+            Console.Clear();
 
-                Cena2();
-            }//end of Cena1_2
+            Cena2();
+        }//end of Cena1_2
 
         public static void Cena2()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine();
+            Console.WriteLine("     No dia seguinte após seu expediente, tenta ligar para seu amigo, mas depois de inúmeras tentativas não consegue contato.");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                           Pressione ENTER para ver opcoes de escolhas!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("             +===============================================================================================================+");
+            Console.WriteLine("             |1 - Ligar para a policia? Pois é preocupante por causa dos ocorridos da cidade.                                |");
+            Console.WriteLine("             |2 - Ir até a casa de " + nomeAmigo + "? Pois está preocupado, principalmente por causa dos ocorridos da cidade.            |");
+            Console.WriteLine("             |3 - Não dar bola e ir para casa descansar. Seu amigo já é bem grandinho e sabe se cuidar.                      |");
+            Console.WriteLine("             +===============================================================================================================+");
+            Console.WriteLine();
+            var resp = Console.ReadLine();
+            Console.Clear();
+
+            if (resp == "1")
             {
-                Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                Console.WriteLine();
-                Console.WriteLine("     No dia seguinte após seu expediente, tenta ligar para seu amigo, mas depois de inúmeras tentativas não consegue contato.");
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine("                           Pressione ENTER para ver opcoes de escolhas!");
-                Console.ReadKey();
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("             +==============================+");
-                Console.WriteLine("             |O que " + nome + " deve fazer?     |");
-                Console.WriteLine("             +==============================+");
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine("             +===============================================================================================================+");
-                Console.WriteLine("             |1 - Ligar para a policia? Pois é preocupante por causa dos ocorridos da cidade.                                |");
-                Console.WriteLine("             |2 - Ir até a casa de " + nomeAmigo + "? Pois está preocupado, principalmente por causa dos ocorridos da cidade.            |");
-                Console.WriteLine("             |3 - Não dar bola e ir para casa descansar. Seu amigo já é bem grandinho e sabe se cuidar.                      |");
-                Console.WriteLine("             +===============================================================================================================+");
-                Console.WriteLine();
-                var resp = Console.ReadLine();
-                Console.Clear();
-            }//end of Cena2
+                Cena2_1();
+            }
+            if (resp == "2")
+            {
+                Cena3();
+            }
+            if (resp == "3")
+            {
+                Cena2_1();
+            }
+            else
+            {
+                Cena2();
+            }
+        }//end of Cena2
+
+        public static void Cena2_1()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine();
+            Console.WriteLine("     No dia seguinte " + nome + " recebe a noticia de que " + nomeAmigo + " foi encontrado morto.");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para continuar!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine(" ▓█████  ██▓    ▓█████     ███▄ ▄███▓ ▒█████   ██▀███   ██▀███  ▓█████  █    ██  ▐██▌     ██▒   █▓ ▄▄▄       ▄████▄   ██▓ ██▓    ▄▄▄       ▒█████  ");
+            Console.WriteLine(" ▓█   ▀ ▓██▒    ▓█   ▀    ▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒▓██ ▒ ██▒▓█   ▀  ██  ▓██▒ ▐██▌    ▓██░   █▒▒████▄    ▒██▀ ▀█  ▓██▒▓██▒   ▒████▄    ▒██▒  ██▒");
+            Console.WriteLine(" ▒███   ▒██░    ▒███      ▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▓██ ░▄█ ▒▒███   ▓██  ▒██░ ▐██▌     ▓██  █▒░▒██  ▀█▄  ▒▓█    ▄ ▒██▒▒██░   ▒██  ▀█▄  ▒██░  ██▒");
+            Console.WriteLine(" ▒▓█  ▄ ▒██░    ▒▓█  ▄    ▒██    ▒██ ▒██   ██░▒██▀▀█▄  ▒██▀▀█▄  ▒▓█  ▄ ▓▓█  ░██░ ▓██▒      ▒██ █░░░██▄▄▄▄██ ▒▓▓▄ ▄██▒░██░▒██░   ░██▄▄▄▄██ ▒██   ██░");
+            Console.WriteLine(" ░▒████▒░██████▒░▒████▒   ▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░██▓ ▒██▒░▒████▒▒▒█████▓  ▒▄▄        ▒▀█░   ▓█   ▓██▒▒ ▓███▀ ░░██░░██████▒▓█   ▓██▒░ ████▓▒░");
+            Console.WriteLine(" ░░ ▒░ ░░ ▒░▓  ░░░ ▒░ ░   ░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░ ▒▓ ░▒▓░░░ ▒░ ░░▒▓▒ ▒ ▒  ░▀▀▒       ░ ▐░   ▒▒   ▓▒█░░ ░▒ ▒  ░░▓  ░ ▒░▓  ░▒▒   ▓▒█░░ ▒░▒░▒░ ");
+            Console.WriteLine("  ░ ░  ░░ ░ ▒  ░ ░ ░  ░   ░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░▒ ░ ▒░ ░ ░  ░░░▒░ ░ ░  ░  ░       ░ ░░    ▒   ▒▒ ░  ░  ▒    ▒ ░░ ░ ▒  ░ ▒   ▒▒ ░  ░ ▒ ▒░ ");
+            Console.WriteLine("    ░     ░ ░      ░      ░      ░   ░ ░ ░ ▒    ░░   ░   ░░   ░    ░    ░░░ ░ ░     ░         ░░    ░   ▒   ░         ▒ ░  ░ ░    ░   ▒   ░ ░ ░ ▒  ");
+            Console.WriteLine("    ░  ░    ░  ░   ░  ░          ░       ░ ░     ░        ░        ░  ░   ░      ░             ░        ░  ░░ ░       ░      ░  ░     ░  ░    ░ ░  ");
+            Console.WriteLine("                                                                                              ░             ░                                      ");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para encerrar o jogo!");
+            Console.ReadKey();
+            Console.Clear();
+        }//end of Cena2_1
+
+        public static void Cena3()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine();
+            Console.WriteLine("     Quando chega na casa do " + nomeAmigo + ", não o encontra, isso o deixa mais preocupado ainda e sem saber o que fazer. " + nome + " resolve vasculhar a casa para ver se encontra alguma coisa e acaba " +
+                " encontrando um pedaço de papel que tem escrito o endereço de uma casa, mas " + nome + " nao consegue lembrar que casa é essa, mas sabe que tem que fazer alguma coisa!");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                           Pressione ENTER para ver opcoes de escolhas!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("             +=============================================================================================================+");
+            Console.WriteLine("             |1 - Ligar para a policia? Pois nao achou seu amigo mas encontrou um endereço que pode levar ate ele.         |");
+            Console.WriteLine("             |2 - Não dar bola pois deve ser o endereço de alguem que ele deve estar se pegando, então deixa o cara de boa.|");
+            Console.WriteLine("             |3 - Ir até o endereço escrito no papel para ver se encontra o seu amigo.                                     |");
+            Console.WriteLine("             +=============================================================================================================+");
+            Console.WriteLine();
+            var resp = Console.ReadLine();
+            Console.Clear();
+
+            if (resp == "1")
+            {
+                Cena3_1();
+            }
+            if (resp == "2")
+            {
+                Cena3_1();
+            }
+            if (resp == "3")
+            {
+                Cena4();
+            }
+            else
+            {
+                Cena3();
+            }
+        }//end of Cena3
+
+        public static void Cena3_1()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine();
+            Console.WriteLine("     No dia seguinte " + nome + " recebe a noticia de que " + nomeAmigo + " foi encontrado morto.");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para continuar!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine(" ▓█████  ██▓    ▓█████     ███▄ ▄███▓ ▒█████   ██▀███   ██▀███  ▓█████  █    ██  ▐██▌     ██▒   █▓ ▄▄▄       ▄████▄   ██▓ ██▓    ▄▄▄       ▒█████  ");
+            Console.WriteLine(" ▓█   ▀ ▓██▒    ▓█   ▀    ▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒▓██ ▒ ██▒▓█   ▀  ██  ▓██▒ ▐██▌    ▓██░   █▒▒████▄    ▒██▀ ▀█  ▓██▒▓██▒   ▒████▄    ▒██▒  ██▒");
+            Console.WriteLine(" ▒███   ▒██░    ▒███      ▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▓██ ░▄█ ▒▒███   ▓██  ▒██░ ▐██▌     ▓██  █▒░▒██  ▀█▄  ▒▓█    ▄ ▒██▒▒██░   ▒██  ▀█▄  ▒██░  ██▒");
+            Console.WriteLine(" ▒▓█  ▄ ▒██░    ▒▓█  ▄    ▒██    ▒██ ▒██   ██░▒██▀▀█▄  ▒██▀▀█▄  ▒▓█  ▄ ▓▓█  ░██░ ▓██▒      ▒██ █░░░██▄▄▄▄██ ▒▓▓▄ ▄██▒░██░▒██░   ░██▄▄▄▄██ ▒██   ██░");
+            Console.WriteLine(" ░▒████▒░██████▒░▒████▒   ▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░██▓ ▒██▒░▒████▒▒▒█████▓  ▒▄▄        ▒▀█░   ▓█   ▓██▒▒ ▓███▀ ░░██░░██████▒▓█   ▓██▒░ ████▓▒░");
+            Console.WriteLine(" ░░ ▒░ ░░ ▒░▓  ░░░ ▒░ ░   ░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░ ▒▓ ░▒▓░░░ ▒░ ░░▒▓▒ ▒ ▒  ░▀▀▒       ░ ▐░   ▒▒   ▓▒█░░ ░▒ ▒  ░░▓  ░ ▒░▓  ░▒▒   ▓▒█░░ ▒░▒░▒░ ");
+            Console.WriteLine("  ░ ░  ░░ ░ ▒  ░ ░ ░  ░   ░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░▒ ░ ▒░ ░ ░  ░░░▒░ ░ ░  ░  ░       ░ ░░    ▒   ▒▒ ░  ░  ▒    ▒ ░░ ░ ▒  ░ ▒   ▒▒ ░  ░ ▒ ▒░ ");
+            Console.WriteLine("    ░     ░ ░      ░      ░      ░   ░ ░ ░ ▒    ░░   ░   ░░   ░    ░    ░░░ ░ ░     ░         ░░    ░   ▒   ░         ▒ ░  ░ ░    ░   ▒   ░ ░ ░ ▒  ");
+            Console.WriteLine("    ░  ░    ░  ░   ░  ░          ░       ░ ░     ░        ░        ░  ░   ░      ░             ░        ░  ░░ ░       ░      ░  ░     ░  ░    ░ ░  ");
+            Console.WriteLine("                                                                                              ░             ░                                      ");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para encerrar o jogo!");
+            Console.ReadKey();
+            Console.Clear();
+        }//end of Cena3_1
+
+        public static void Cena4()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine();
+            Console.WriteLine("     Em producao!!");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                           Pressione ENTER para ver opcoes de escolhas!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("             +=============================================================================================================+");
+            Console.WriteLine("             |1 - Ligar para a policia? Pois nao achou seu amigo mas encontrou um endereço que pode levar ate ele.         |");
+            Console.WriteLine("             |2 - Não dar bola pois deve ser o endereço de alguem que ele deve estar se pegando, então deixa o cara de boa.|");
+            Console.WriteLine("             |3 - Ir até o endereço escrito no papel para ver se encontra o seu amigo.                                     |");
+            Console.WriteLine("             +=============================================================================================================+");
+            Console.WriteLine();
+            var resp = Console.ReadLine();
+            Console.Clear();
+        }
     }//end of class
 }//end of namespace
