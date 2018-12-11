@@ -1,0 +1,14 @@
+C:\Users\Nika\Documents\Introducao de jogos\Projetos\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe.config
+C:\Users\Nika\Documents\Introducao de jogos\Projetos\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe
+C:\Users\Nika\Documents\Introducao de jogos\Projetos\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.pdb
+C:\Users\Nika\Documents\Introducao de jogos\Projetos\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csprojAssemblyReference.cache
+C:\Users\Nika\Documents\Introducao de jogos\Projetos\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csproj.CoreCompileInputs.cache
+C:\Users\Nika\Documents\Introducao de jogos\Projetos\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.exe
+C:\Users\Nika\Documents\Introducao de jogos\Projetos\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.pdb
+C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csprojAssemblyReference.cache
+C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.csproj.CoreCompileInputs.cache
+C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.exe
+C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\obj\Debug\CasaDoMedo.pdb
+C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe.config
+C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.exe
+C:\Users\nikolas\Documents\Unity\VisualSudio\CasaDoMedo\CasaDoMedo\bin\Debug\CasaDoMedo.pdb
