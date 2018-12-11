@@ -11,6 +11,38 @@ namespace CasaDoMedo
         public static string nome;
         public static string nomeAmigo;
 
+        public static void Final()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine();
+            Console.WriteLine("     No dia seguinte " + nome + " recebe a noticia de que " + nomeAmigo + " foi encontrado morto.");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para continuar!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine(" ▓█████  ██▓    ▓█████     ███▄ ▄███▓ ▒█████   ██▀███   ██▀███  ▓█████  █    ██  ▐██▌     ██▒   █▓ ▄▄▄       ▄████▄   ██▓ ██▓    ▄▄▄       ▒█████  ");
+            Console.WriteLine(" ▓█   ▀ ▓██▒    ▓█   ▀    ▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒▓██ ▒ ██▒▓█   ▀  ██  ▓██▒ ▐██▌    ▓██░   █▒▒████▄    ▒██▀ ▀█  ▓██▒▓██▒   ▒████▄    ▒██▒  ██▒");
+            Console.WriteLine(" ▒███   ▒██░    ▒███      ▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▓██ ░▄█ ▒▒███   ▓██  ▒██░ ▐██▌     ▓██  █▒░▒██  ▀█▄  ▒▓█    ▄ ▒██▒▒██░   ▒██  ▀█▄  ▒██░  ██▒");
+            Console.WriteLine(" ▒▓█  ▄ ▒██░    ▒▓█  ▄    ▒██    ▒██ ▒██   ██░▒██▀▀█▄  ▒██▀▀█▄  ▒▓█  ▄ ▓▓█  ░██░ ▓██▒      ▒██ █░░░██▄▄▄▄██ ▒▓▓▄ ▄██▒░██░▒██░   ░██▄▄▄▄██ ▒██   ██░");
+            Console.WriteLine(" ░▒████▒░██████▒░▒████▒   ▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░██▓ ▒██▒░▒████▒▒▒█████▓  ▒▄▄        ▒▀█░   ▓█   ▓██▒▒ ▓███▀ ░░██░░██████▒▓█   ▓██▒░ ████▓▒░");
+            Console.WriteLine(" ░░ ▒░ ░░ ▒░▓  ░░░ ▒░ ░   ░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░ ▒▓ ░▒▓░░░ ▒░ ░░▒▓▒ ▒ ▒  ░▀▀▒       ░ ▐░   ▒▒   ▓▒█░░ ░▒ ▒  ░░▓  ░ ▒░▓  ░▒▒   ▓▒█░░ ▒░▒░▒░ ");
+            Console.WriteLine("  ░ ░  ░░ ░ ▒  ░ ░ ░  ░   ░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░▒ ░ ▒░ ░ ░  ░░░▒░ ░ ░  ░  ░       ░ ░░    ▒   ▒▒ ░  ░  ▒    ▒ ░░ ░ ▒  ░ ▒   ▒▒ ░  ░ ▒ ▒░ ");
+            Console.WriteLine("    ░     ░ ░      ░      ░      ░   ░ ░ ░ ▒    ░░   ░   ░░   ░    ░    ░░░ ░ ░     ░         ░░    ░   ▒   ░         ▒ ░  ░ ░    ░   ▒   ░ ░ ░ ▒  ");
+            Console.WriteLine("    ░  ░    ░  ░   ░  ░          ░       ░ ░     ░        ░        ░  ░   ░      ░             ░        ░  ░░ ░       ░      ░  ░     ░  ░    ░ ░  ");
+            Console.WriteLine("                                                                                              ░             ░                                      ");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para encerrar o jogo!");
+            Console.ReadKey();
+            Console.Clear();
+
+            Environment.Exit(0);
+        }//end of Final
+
         public static void Main()
         {
             Menu();
@@ -184,7 +216,7 @@ namespace CasaDoMedo
 
             if (resp == "1")
             {
-                Cena2_1();
+                Final();
             }
             if (resp == "2")
             {
@@ -192,43 +224,13 @@ namespace CasaDoMedo
             }
             if (resp == "3")
             {
-                Cena2_1();
+                Final();
             }
             else
             {
                 Cena2();
             }
         }//end of Cena2
-
-        public static void Cena2_1()
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine();
-            Console.WriteLine("     No dia seguinte " + nome + " recebe a noticia de que " + nomeAmigo + " foi encontrado morto.");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                          Pressione ENTER para continuar!");
-            Console.ReadKey();
-            Console.Clear();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine(" ▓█████  ██▓    ▓█████     ███▄ ▄███▓ ▒█████   ██▀███   ██▀███  ▓█████  █    ██  ▐██▌     ██▒   █▓ ▄▄▄       ▄████▄   ██▓ ██▓    ▄▄▄       ▒█████  ");
-            Console.WriteLine(" ▓█   ▀ ▓██▒    ▓█   ▀    ▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒▓██ ▒ ██▒▓█   ▀  ██  ▓██▒ ▐██▌    ▓██░   █▒▒████▄    ▒██▀ ▀█  ▓██▒▓██▒   ▒████▄    ▒██▒  ██▒");
-            Console.WriteLine(" ▒███   ▒██░    ▒███      ▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▓██ ░▄█ ▒▒███   ▓██  ▒██░ ▐██▌     ▓██  █▒░▒██  ▀█▄  ▒▓█    ▄ ▒██▒▒██░   ▒██  ▀█▄  ▒██░  ██▒");
-            Console.WriteLine(" ▒▓█  ▄ ▒██░    ▒▓█  ▄    ▒██    ▒██ ▒██   ██░▒██▀▀█▄  ▒██▀▀█▄  ▒▓█  ▄ ▓▓█  ░██░ ▓██▒      ▒██ █░░░██▄▄▄▄██ ▒▓▓▄ ▄██▒░██░▒██░   ░██▄▄▄▄██ ▒██   ██░");
-            Console.WriteLine(" ░▒████▒░██████▒░▒████▒   ▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░██▓ ▒██▒░▒████▒▒▒█████▓  ▒▄▄        ▒▀█░   ▓█   ▓██▒▒ ▓███▀ ░░██░░██████▒▓█   ▓██▒░ ████▓▒░");
-            Console.WriteLine(" ░░ ▒░ ░░ ▒░▓  ░░░ ▒░ ░   ░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░ ▒▓ ░▒▓░░░ ▒░ ░░▒▓▒ ▒ ▒  ░▀▀▒       ░ ▐░   ▒▒   ▓▒█░░ ░▒ ▒  ░░▓  ░ ▒░▓  ░▒▒   ▓▒█░░ ▒░▒░▒░ ");
-            Console.WriteLine("  ░ ░  ░░ ░ ▒  ░ ░ ░  ░   ░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░▒ ░ ▒░ ░ ░  ░░░▒░ ░ ░  ░  ░       ░ ░░    ▒   ▒▒ ░  ░  ▒    ▒ ░░ ░ ▒  ░ ▒   ▒▒ ░  ░ ▒ ▒░ ");
-            Console.WriteLine("    ░     ░ ░      ░      ░      ░   ░ ░ ░ ▒    ░░   ░   ░░   ░    ░    ░░░ ░ ░     ░         ░░    ░   ▒   ░         ▒ ░  ░ ░    ░   ▒   ░ ░ ░ ▒  ");
-            Console.WriteLine("    ░  ░    ░  ░   ░  ░          ░       ░ ░     ░        ░        ░  ░   ░      ░             ░        ░  ░░ ░       ░      ░  ░     ░  ░    ░ ░  ");
-            Console.WriteLine("                                                                                              ░             ░                                      ");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                          Pressione ENTER para encerrar o jogo!");
-            Console.ReadKey();
-            Console.Clear();
-        }//end of Cena2_1
 
         public static void Cena3()
         {
@@ -259,11 +261,11 @@ namespace CasaDoMedo
 
             if (resp == "1")
             {
-                Cena3_1();
+                Final();
             }
             if (resp == "2")
             {
-                Cena3_1();
+                Final();
             }
             if (resp == "3")
             {
@@ -274,36 +276,6 @@ namespace CasaDoMedo
                 Cena3();
             }
         }//end of Cena3
-
-        public static void Cena3_1()
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine();
-            Console.WriteLine("     No dia seguinte " + nome + " recebe a noticia de que " + nomeAmigo + " foi encontrado morto.");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                          Pressione ENTER para continuar!");
-            Console.ReadKey();
-            Console.Clear();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine(" ▓█████  ██▓    ▓█████     ███▄ ▄███▓ ▒█████   ██▀███   ██▀███  ▓█████  █    ██  ▐██▌     ██▒   █▓ ▄▄▄       ▄████▄   ██▓ ██▓    ▄▄▄       ▒█████  ");
-            Console.WriteLine(" ▓█   ▀ ▓██▒    ▓█   ▀    ▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒▓██ ▒ ██▒▓█   ▀  ██  ▓██▒ ▐██▌    ▓██░   █▒▒████▄    ▒██▀ ▀█  ▓██▒▓██▒   ▒████▄    ▒██▒  ██▒");
-            Console.WriteLine(" ▒███   ▒██░    ▒███      ▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▓██ ░▄█ ▒▒███   ▓██  ▒██░ ▐██▌     ▓██  █▒░▒██  ▀█▄  ▒▓█    ▄ ▒██▒▒██░   ▒██  ▀█▄  ▒██░  ██▒");
-            Console.WriteLine(" ▒▓█  ▄ ▒██░    ▒▓█  ▄    ▒██    ▒██ ▒██   ██░▒██▀▀█▄  ▒██▀▀█▄  ▒▓█  ▄ ▓▓█  ░██░ ▓██▒      ▒██ █░░░██▄▄▄▄██ ▒▓▓▄ ▄██▒░██░▒██░   ░██▄▄▄▄██ ▒██   ██░");
-            Console.WriteLine(" ░▒████▒░██████▒░▒████▒   ▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░██▓ ▒██▒░▒████▒▒▒█████▓  ▒▄▄        ▒▀█░   ▓█   ▓██▒▒ ▓███▀ ░░██░░██████▒▓█   ▓██▒░ ████▓▒░");
-            Console.WriteLine(" ░░ ▒░ ░░ ▒░▓  ░░░ ▒░ ░   ░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░ ▒▓ ░▒▓░░░ ▒░ ░░▒▓▒ ▒ ▒  ░▀▀▒       ░ ▐░   ▒▒   ▓▒█░░ ░▒ ▒  ░░▓  ░ ▒░▓  ░▒▒   ▓▒█░░ ▒░▒░▒░ ");
-            Console.WriteLine("  ░ ░  ░░ ░ ▒  ░ ░ ░  ░   ░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░▒ ░ ▒░ ░ ░  ░░░▒░ ░ ░  ░  ░       ░ ░░    ▒   ▒▒ ░  ░  ▒    ▒ ░░ ░ ▒  ░ ▒   ▒▒ ░  ░ ▒ ▒░ ");
-            Console.WriteLine("    ░     ░ ░      ░      ░      ░   ░ ░ ░ ▒    ░░   ░   ░░   ░    ░    ░░░ ░ ░     ░         ░░    ░   ▒   ░         ▒ ░  ░ ░    ░   ▒   ░ ░ ░ ▒  ");
-            Console.WriteLine("    ░  ░    ░  ░   ░  ░          ░       ░ ░     ░        ░        ░  ░   ░      ░             ░        ░  ░░ ░       ░      ░  ░     ░  ░    ░ ░  ");
-            Console.WriteLine("                                                                                              ░             ░                                      ");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                          Pressione ENTER para encerrar o jogo!");
-            Console.ReadKey();
-            Console.Clear();
-        }//end of Cena3_1
 
         public static void Cena4()
         {
