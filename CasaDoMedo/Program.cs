@@ -43,6 +43,38 @@ namespace CasaDoMedo
             Environment.Exit(0);
         }//end of Final
 
+        public static void Final2()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine();
+            Console.WriteLine("     Cara, o " + nome + " nao sabe lugar, e um GAMER, porque mandou ele ir lutar??");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para continuar!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine(" ▓█████  ██▓    ▓█████     ███▄ ▄███▓ ▒█████   ██▀███   ██▀███  ▓█████  █    ██  ▐██▌     ██▒   █▓ ▄▄▄       ▄████▄   ██▓ ██▓    ▄▄▄       ▒█████  ");
+            Console.WriteLine(" ▓█   ▀ ▓██▒    ▓█   ▀    ▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒▓██ ▒ ██▒▓█   ▀  ██  ▓██▒ ▐██▌    ▓██░   █▒▒████▄    ▒██▀ ▀█  ▓██▒▓██▒   ▒████▄    ▒██▒  ██▒");
+            Console.WriteLine(" ▒███   ▒██░    ▒███      ▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▓██ ░▄█ ▒▒███   ▓██  ▒██░ ▐██▌     ▓██  █▒░▒██  ▀█▄  ▒▓█    ▄ ▒██▒▒██░   ▒██  ▀█▄  ▒██░  ██▒");
+            Console.WriteLine(" ▒▓█  ▄ ▒██░    ▒▓█  ▄    ▒██    ▒██ ▒██   ██░▒██▀▀█▄  ▒██▀▀█▄  ▒▓█  ▄ ▓▓█  ░██░ ▓██▒      ▒██ █░░░██▄▄▄▄██ ▒▓▓▄ ▄██▒░██░▒██░   ░██▄▄▄▄██ ▒██   ██░");
+            Console.WriteLine(" ░▒████▒░██████▒░▒████▒   ▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░██▓ ▒██▒░▒████▒▒▒█████▓  ▒▄▄        ▒▀█░   ▓█   ▓██▒▒ ▓███▀ ░░██░░██████▒▓█   ▓██▒░ ████▓▒░");
+            Console.WriteLine(" ░░ ▒░ ░░ ▒░▓  ░░░ ▒░ ░   ░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░ ▒▓ ░▒▓░░░ ▒░ ░░▒▓▒ ▒ ▒  ░▀▀▒       ░ ▐░   ▒▒   ▓▒█░░ ░▒ ▒  ░░▓  ░ ▒░▓  ░▒▒   ▓▒█░░ ▒░▒░▒░ ");
+            Console.WriteLine("  ░ ░  ░░ ░ ▒  ░ ░ ░  ░   ░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░▒ ░ ▒░ ░ ░  ░░░▒░ ░ ░  ░  ░       ░ ░░    ▒   ▒▒ ░  ░  ▒    ▒ ░░ ░ ▒  ░ ▒   ▒▒ ░  ░ ▒ ▒░ ");
+            Console.WriteLine("    ░     ░ ░      ░      ░      ░   ░ ░ ░ ▒    ░░   ░   ░░   ░    ░    ░░░ ░ ░     ░         ░░    ░   ▒   ░         ▒ ░  ░ ░    ░   ▒   ░ ░ ░ ▒  ");
+            Console.WriteLine("    ░  ░    ░  ░   ░  ░          ░       ░ ░     ░        ░        ░  ░   ░      ░             ░        ░  ░░ ░       ░      ░  ░     ░  ░    ░ ░  ");
+            Console.WriteLine("                                                                                              ░             ░                                      ");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                          Pressione ENTER para encerrar o jogo!");
+            Console.ReadKey();
+            Console.Clear();
+
+            Environment.Exit(0);
+        }//end of Final
+
         public static void Main()
         {
             Menu();
@@ -281,7 +313,8 @@ namespace CasaDoMedo
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine();
-            Console.WriteLine("     Em producao!!");
+            Console.WriteLine("     Quando chega no endereço, por volta das 21 hrs, avista uma casa enorme e bem antiga, com um aspecto bem velho e mal cuidado, igual a filme de terror, janelas quebradas, pintura gasta e ripas fora do lugar, gramado alto como se " +
+                " nao fosse cortado a anos, uma casa de filme de terror... " + nome + "fica pensando no que pode fazer, e chega a seguinte conclusão:");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
@@ -294,14 +327,107 @@ namespace CasaDoMedo
             Console.WriteLine("             +==============================+");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("             +=============================================================================================================+");
-            Console.WriteLine("             |1 - Ligar para a policia? Pois nao achou seu amigo mas encontrou um endereço que pode levar ate ele.         |");
-            Console.WriteLine("             |2 - Não dar bola pois deve ser o endereço de alguem que ele deve estar se pegando, então deixa o cara de boa.|");
-            Console.WriteLine("             |3 - Ir até o endereço escrito no papel para ver se encontra o seu amigo.                                     |");
-            Console.WriteLine("             +=============================================================================================================+");
+            Console.WriteLine("             +======================================================================================================+");
+            Console.WriteLine("             |1 - Sair correndo porque a sua alma já morreu! O amigo que se vire!                                   |");
+            Console.WriteLine("             |2 - Ligar a lanterna do smartphone e ir vasculhar a casa para ver se encontra alguma coisa!           |");
+            Console.WriteLine("             |3 - Ligar para a policia? Porque NEM FODENDO que ele entra nessa casa, foda-se o amigo dele, se vira!!|");
+            Console.WriteLine("             +======================================================================================================+");
             Console.WriteLine();
             var resp = Console.ReadLine();
             Console.Clear();
-        }
+            
+            if (resp == "1")
+            {
+                Final();
+            }
+            if (resp == "2")
+            {
+                Cena5();
+            }
+            if (resp == "3")
+            {
+                Final();
+            }
+            else
+            {
+                Cena4();
+            }
+        }//end of Cena4
+
+        public static void Cena5()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine();
+            Console.WriteLine("     Apos entrar na casa e vasculhar um pouco, " + nome + " avista uma luz acender ao fundo de um corredor, isso obviamente o faz quase cagar nas calças, mas o ser humano é realmente curioso, mesmo sabendo que " +
+                " a morte lhe da oi, vai em direcao a porta. Quando chega perto da porta decide abri-la, do outro lado se depara com um quarto todo enfeitado com objetos relacionado a palhacos. Entra no quarto e comeca a vasculhar, de repente " +
+                " um palhaco humanoide surge na frente de " + nome + " e comeca a ataca-lo...");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                           Pressione ENTER para ver opcoes de escolhas!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("             +================================================================================+");
+            Console.WriteLine("             |1 - Sai correndo porque a sua alma acabou de morrer ali!                        |");
+            Console.WriteLine("             |2 - Tenta achar algo para bater no palhaco porque nao sabe lutar, enquanto foge!|");
+            Console.WriteLine("             |3 - Sai na porrada com a porra do palhaco e tenta nocautear ele!                |");
+            Console.WriteLine("             +================================================================================+");
+            Console.WriteLine();
+            var resp = Console.ReadLine();
+            Console.Clear();
+            
+            if (resp == "1")
+            {
+                Final();
+            }
+            if (resp == "2")
+            {
+                Cena6();
+            }
+            if (resp == "3")
+            {
+                Final2();
+            }
+            else
+            {
+                Cena6();
+            }
+        }//end of Cena5
+
+        public static void Cena6()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine();
+            Console.WriteLine("     Depois de muita astucia, ótimo preparo fisico (SQN), e MUITA sorte, consegue desviar dos ataques do palhaco e encontra um pedaco de ripa no chao, consegue pega-lo e assim passa a atacar o palhaco, e depois de " +
+                " muitos golpes errados consegue acertar um no palhaco, ele fica desnorteado e cai no chao, " + nome + " desfere mais alguns golpes no palhaco e o deixa inconciente, ou o mata, ele nao sabe dizer...");
+            Console.WriteLine("     Consegue se acalmar depois do susto e passa a ouvir gritos de socorro, então vai em direcao ao pedidos e consegue encontrar seu amigo " + nomeAmigo + " num quarto que está trancado, quebra a maceneta com a ripa" +
+                " e consegue soltar seu amigo, saem da casa as pressas e se salvam de um destino pior, e todos ficam felizes para sempre!!");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                           Pressione ENTER para ver opcoes de escolhas!");
+            Console.ReadKey();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             |" + nome + " voce salvou o seu grande amigo|");
+            Console.WriteLine("             +==============================+");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("             PARABENS");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                     Pressione ENTER para continuar!");
+            Console.ReadKey();
+            Console.Clear();
+            
+            Environment.Exit(0);
+        }//end of Cena6
     }//end of class
 }//end of namespace
