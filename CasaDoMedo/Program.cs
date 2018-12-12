@@ -47,7 +47,7 @@ namespace CasaDoMedo
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine();
-            Console.WriteLine("     Cara, o " + nome + " nao sabe lugar, e um GAMER, porque mandou ele ir lutar??");
+            Console.WriteLine("     Cara, o " + nome + " nao sabe lutar, e um GAMER, porque mandou ele ir lutar??");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("                          Pressione ENTER para continuar!");
@@ -98,9 +98,9 @@ namespace CasaDoMedo
             Console.WriteLine("             +============================================+");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("      +==============================================================+");
-            Console.WriteLine("      | Por favor, entre e sinta-se em casa... MUAHAHAHAHAHAHAHA!!!! |");
-            Console.WriteLine("      +==============================================================+");
+            Console.WriteLine("      +=============================================================+");
+            Console.WriteLine("      | Por favor, entre e sinta-se em casa... MUAHAHAHAHAHAHAHA!!!!|");
+            Console.WriteLine("      +=============================================================+");
             Console.WriteLine();
             Console.WriteLine("  Por favor, deixe a tela em FullScreen para melhor aproveitamento do jogo.");
             Console.WriteLine();
@@ -131,12 +131,12 @@ namespace CasaDoMedo
             Console.WriteLine("             +=================================================+");
             Console.Clear();
 
-            Console.WriteLine("             +===============================================+");
-            Console.WriteLine("             |Fecho... Agora vamos começar o joguinho...     |");
-            Console.WriteLine("             +===============================================+");
+            Console.WriteLine("             +==========================================+");
+            Console.WriteLine("             |Fecho... Agora vamos começar o joguinho...|");
+            Console.WriteLine("             +==========================================+");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("                     Pressione ENTER para continuar!");
+            Console.WriteLine("                  Pressione ENTER para continuar!");
             Console.ReadKey();
             Console.Clear();
 
@@ -159,16 +159,16 @@ namespace CasaDoMedo
             Console.ReadKey();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("             +==============================+");
-            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
-            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             +======================================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?             |");
+            Console.WriteLine("             +======================================+");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("             +====================================================================+");
-            Console.WriteLine("             |1 - Ligar para seu amigo?                                           |");
-            Console.WriteLine("             |2 - Ir dormir pois já é tarde da noite e de manhã tem de trabalhar! |");
-            Console.WriteLine("             |3 - Ir até a casa de " + nomeAmigo + " pois quer dar uma caminhada!             |");
-            Console.WriteLine("             +====================================================================+");
+            Console.WriteLine("             +===================================================================+");
+            Console.WriteLine("             |1 - Ligar para seu amigo!                                          |");
+            Console.WriteLine("             |2 - Ir dormir pois já é tarde da noite e de manhã tem de trabalhar!|");
+            Console.WriteLine("             |3 - Ir até a casa de " + nomeAmigo + " pois quer dar uma caminhada!            |");
+            Console.WriteLine("             +===================================================================+");
             Console.WriteLine();
             var resp = Console.ReadLine();
             Console.Clear();
@@ -232,16 +232,16 @@ namespace CasaDoMedo
             Console.ReadKey();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("             +==============================+");
-            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
-            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             +===================================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?          |");
+            Console.WriteLine("             +===================================+");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("             +===============================================================================================================+");
-            Console.WriteLine("             |1 - Ligar para a policia? Pois é preocupante por causa dos ocorridos da cidade.                                |");
-            Console.WriteLine("             |2 - Ir até a casa de " + nomeAmigo + "? Pois está preocupado, principalmente por causa dos ocorridos da cidade.            |");
-            Console.WriteLine("             |3 - Não dar bola e ir para casa descansar. Seu amigo já é bem grandinho e sabe se cuidar.                      |");
-            Console.WriteLine("             +===============================================================================================================+");
+            Console.WriteLine("             +===================================================================================================+");
+            Console.WriteLine("             |1 - Ligar para a policia! Pois é preocupante por causa dos ocorridos da cidade.                    |");
+            Console.WriteLine("             |2 - Ir até a casa de " + nomeAmigo + "! Pois está preocupado, principalmente por causa dos ocorridos da cidade.|");
+            Console.WriteLine("             |3 - Não dar bola e ir para casa descansar. Seu amigo já é bem grandinho e sabe se cuidar!          |");
+            Console.WriteLine("             +===================================================================================================+");
             Console.WriteLine();
             var resp = Console.ReadLine();
             Console.Clear();
@@ -277,15 +277,15 @@ namespace CasaDoMedo
             Console.ReadKey();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("             +==============================+");
-            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
-            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             +===================================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?          |");
+            Console.WriteLine("             +===================================+");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("             +=============================================================================================================+");
-            Console.WriteLine("             |1 - Ligar para a policia? Pois nao achou seu amigo mas encontrou um endereço que pode levar ate ele.         |");
-            Console.WriteLine("             |2 - Não dar bola pois deve ser o endereço de alguem que ele deve estar se pegando, então deixa o cara de boa.|");
-            Console.WriteLine("             |3 - Ir até o endereço escrito no papel para ver se encontra o seu amigo.                                     |");
+            Console.WriteLine("             |1 - Ligar para a policia! Pois nao achou seu amigo mas encontrou um endereço que pode levar ate ele.         |");
+            Console.WriteLine("             |2 - Não dar bola pois deve ser o endereço de alguem que ele deve estar se pegando, então deixa o cara de boa!|");
+            Console.WriteLine("             |3 - Ir até o endereço escrito no papel para ver se encontra o seu amigo!                                     |");
             Console.WriteLine("             +=============================================================================================================+");
             Console.WriteLine();
             var resp = Console.ReadLine();
@@ -313,8 +313,8 @@ namespace CasaDoMedo
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine();
-            Console.WriteLine("     Quando chega no endereço, por volta das 21 hrs, avista uma casa enorme e bem antiga, com um aspecto bem velho e mal cuidado, igual a filme de terror, janelas quebradas, pintura gasta e ripas fora do lugar, gramado alto como se " +
-                " nao fosse cortado a anos, uma casa de filme de terror... " + nome + "fica pensando no que pode fazer, e chega a seguinte conclusão:");
+            Console.WriteLine("     Quando chega no endereco, por volta das 21 hrs, avista uma casa enorme e bem antiga, com um aspecto bem velho e mal cuidado, igual a filme de terror, janelas quebradas, pintura gasta e ripas fora do lugar, gramado alto como se " +
+                " nao fosse cortado a anos, uma casa de filme de terror... " + nome + " fica pensando no que pode fazer, e chega a seguinte conclusão:");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
@@ -322,9 +322,9 @@ namespace CasaDoMedo
             Console.ReadKey();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("             +==============================+");
-            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
-            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             +===================================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?          |");
+            Console.WriteLine("             +===================================+");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("             +======================================================================================================+");
@@ -368,9 +368,9 @@ namespace CasaDoMedo
             Console.ReadKey();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("             +==============================+");
-            Console.WriteLine("             |O que " + nome + " deve fazer?     |");
-            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             +===================================+");
+            Console.WriteLine("             |O que " + nome + " deve fazer?          |");
+            Console.WriteLine("             +===================================+");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("             +================================================================================+");
@@ -415,9 +415,9 @@ namespace CasaDoMedo
             Console.ReadKey();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("             +==============================+");
-            Console.WriteLine("             |" + nome + " voce salvou o seu grande amigo|");
-            Console.WriteLine("             +==============================+");
+            Console.WriteLine("             +================================================+");
+            Console.WriteLine("             |" + nome + " voce salvou o seu grande amigo         |");
+            Console.WriteLine("             +================================================+");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("    ▄███████▄    ▄████████    ▄████████    ▄████████ ▀█████████▄     ▄████████ ███▄▄▄▄      ▄████████ ");
@@ -431,7 +431,7 @@ namespace CasaDoMedo
             Console.WriteLine("                             ███    ███                                                               ");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("                     Pressione ENTER para continuar!");
+            Console.WriteLine("                     Pressione ENTER para encerrar!");
             Console.ReadKey();
             Console.Clear();
             
