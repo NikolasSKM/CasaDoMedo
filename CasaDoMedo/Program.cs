@@ -420,7 +420,15 @@ namespace CasaDoMedo
             Console.WriteLine("             +==============================+");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("             PARABENS");
+            Console.WriteLine("    ▄███████▄    ▄████████    ▄████████    ▄████████ ▀█████████▄     ▄████████ ███▄▄▄▄      ▄████████ ");
+            Console.WriteLine("   ███    ███   ███    ███   ███    ███   ███    ███   ███    ███   ███    ███ ███▀▀▀██▄   ███    ███ ");
+            Console.WriteLine("   ███    ███   ███    ███   ███    ███   ███    ███   ███    ███   ███    █▀  ███   ███   ███    █▀  ");
+            Console.WriteLine("   ███    ███   ███    ███  ▄███▄▄▄▄██▀   ███    ███  ▄███▄▄▄██▀   ▄███▄▄▄     ███   ███   ███        ");
+            Console.WriteLine("  ▀█████████▀  ▀██████████ ▀▀███▀▀▀▀▀   ▀███████████ ▀▀███▀▀▀██▄  ▀▀███▀▀▀     ███   ███ ▀███████████ ");
+            Console.WriteLine("   ███          ███    ███ ▀███████████   ███    ███   ███    ██▄   ███    █▄  ███   ███          ███ ");
+            Console.WriteLine("   ███          ███    ███   ███    ███   ███    ███   ███    ███   ███    ███ ███   ███    ▄█    ███ ");
+            Console.WriteLine("  ▄████▀        ███    █▀    ███    ███   ███    █▀  ▄█████████▀    ██████████  ▀█   █▀   ▄████████▀  ");
+            Console.WriteLine("                             ███    ███                                                               ");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("                     Pressione ENTER para continuar!");
